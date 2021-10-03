@@ -1,11 +1,13 @@
 .header{
     text-align: center;
+     
+     
 }
 
  
 .header nav{
     background-color: #03071e;
-    line-height: 40px;
+    line-height: 150px;
 }
 .header nav a{
     text-decoration: none;
