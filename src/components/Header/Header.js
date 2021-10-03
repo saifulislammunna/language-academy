@@ -1,9 +1,18 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 
 const Header = () => {
     return (
         <div>
-            <h1>This is Header</h1>
+             
+            
+             <nav className="custom-style">
+                <NavLink  to ="/home">Home</NavLink>
+                <NavLink  to ="/about">About</NavLink>
+                <NavLink  to ="/services">Services</NavLink>
+                
+            </nav>     
+             
         </div>
     );
 };
