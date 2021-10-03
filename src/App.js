@@ -7,6 +7,7 @@ import Services from './components/Services/Services';
 import About from './components/About/About';
 import NotFound from './components/NotFound/NotFound';
 import { BrowserRouter,Switch,Route } from 'react-router-dom';
+import Footer from './components/Footer/Footer';
  
 
 
@@ -32,8 +33,8 @@ function App() {
           <Route path="*">
           <NotFound></NotFound>
           </Route>
-
         </Switch>
+        <Footer></Footer>
       </BrowserRouter>
       
       
