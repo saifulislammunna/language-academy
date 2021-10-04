@@ -1,9 +1,23 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
+import Service from '../Service/Service';
 
 const Services = () => {
+    const [languages, setLanguages] = useState([]);
+ 
+ useEffect(()=>{
+   fetch('./languages.JSON')
+   .then(res => res.json())
+   .then(data => setLanguages(data));
+ },[])
     return (
         <div>
-            <h2>service section</h2>
+             {
+               languages.map(language => <Service
+               language={language}
+               >
+
+               </Service>)
+             }
         </div>
     );
 };
