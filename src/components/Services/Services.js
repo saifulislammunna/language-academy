@@ -13,7 +13,9 @@ const Services = () => {
         <div className="languages-container">
              {
                languages.map(language => <Service
-               language={language}
+                language={language}
+                key ={language.name}
+              
                >
 
                </Service>)
