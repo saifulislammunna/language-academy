@@ -25,7 +25,7 @@ const Home = () => {
     />
 
     <Carousel.Caption>
-      <h3>learn bengali</h3>
+      <h3 >learn bengali</h3>
       <p>LEARNING BENGALI: FROM BANGLA BEGINNER TO ADVANCED LEARNER</p>
       <Button className="btn btn-primary">Learn bengali</Button>
     </Carousel.Caption>
@@ -37,8 +37,8 @@ const Home = () => {
                  alt="Second slide" width="500" height="400" 
                  />
                  <Carousel.Caption>
-                  <h3>learn arabic</h3>
-                   <p>This Arabic course contains 100+ Arabic lessons that cover most Arabic grammar and Arabic morphology topics needed to help you learn Arabic quickly.</p>
+                  <h3 className="text-success">learn arabic</h3>
+                   <p className="text-success">This Arabic course contains 100+ Arabic lessons that cover most Arabic grammar and Arabic morphology topics needed to help you learn Arabic quickly.</p>
                    <Button  className="btn btn-primary" >Learn Arabic</Button>
                  </Carousel.Caption>
                  </Carousel.Item>
@@ -63,8 +63,8 @@ const Home = () => {
     />
 
     <Carousel.Caption>
-      <h3>learn bengali</h3>
-      <p>LEARNING BENGALI: FROM BANGLA BEGINNER TO ADVANCED LEARNER</p>
+      <h3 className="text-dark">learn Chinese</h3>
+      <p className="text-dark">LEARNING Chinese: FROM Chinese BEGINNER TO ADVANCED LEARNER</p>
       <Button  className="btn btn-primary" >Learn Chinese  </Button>
     </Carousel.Caption>
   </Carousel.Item>
