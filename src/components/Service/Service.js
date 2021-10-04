@@ -6,8 +6,8 @@ const Service = (props) => {
        
         <div className="language-course  ">
             <img src={img} className="rounded" alt="" width="400" height="300" />
-            <h1>Name:{name}</h1>
-            <p>Price:{price}</p>
+            <h3>Course Name:{name}</h3>
+            <h2> {price}</h2>
             
         </div>
          
