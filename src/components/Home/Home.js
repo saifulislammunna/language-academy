@@ -25,8 +25,8 @@ const Home = () => {
     />
 
     <Carousel.Caption>
-      <h3 >learn bengali</h3>
-      <p>LEARNING BENGALI: FROM BANGLA BEGINNER TO ADVANCED LEARNER</p>
+      <h3 className="fw-bolder" >learn bengali</h3>
+      <p className="fw-bolder">LEARNING BENGALI: FROM BANGLA BEGINNER TO ADVANCED LEARNER</p>
       <Button className="btn btn-primary">Learn bengali</Button>
     </Carousel.Caption>
   </Carousel.Item>
@@ -50,8 +50,8 @@ const Home = () => {
                   />
 
     <Carousel.Caption>
-      <h3>best english courses</h3>
-      <p>improve your skills through our high-quality courses and resources – all designed for adult language learners.</p>
+      <h3 className="fw-bolder">best english courses</h3>
+      <p className="fw-bolder">improve your skills through our high-quality courses and resources – all designed for adult language learners.</p>
       <Button  className="btn btn-primary" >Learn  English</Button>
     </Carousel.Caption>
   </Carousel.Item>
@@ -63,8 +63,8 @@ const Home = () => {
     />
 
     <Carousel.Caption>
-      <h3 className="text-dark">learn Chinese</h3>
-      <p className="text-dark">LEARNING Chinese: FROM Chinese BEGINNER TO ADVANCED LEARNER</p>
+      <h3 className="text-dark fw-bolder">learn Chinese</h3>
+      <p className="text-dark fw-bolder">LEARNING Chinese: FROM Chinese BEGINNER TO ADVANCED LEARNER</p>
       <Button  className="btn btn-primary" >Learn Chinese  </Button>
     </Carousel.Caption>
   </Carousel.Item>
