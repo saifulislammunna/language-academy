@@ -1,6 +1,16 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { Carousel } from 'react-bootstrap';
+import Service from '../Service/Service';
+ 
 const Home = () => {
+    
+  let [languages,setLanguage]  = useState([])
+  useEffect(()=>{
+    fetch('./languages.JSON')
+    .then(res => res.json())
+    .then(data => setLanguage(data.slice(0,4)));
+  },[])
+  // const languages = language.slice(0,3)
     return (
         <div  >
              <div className="first-part">
@@ -44,7 +54,13 @@ const Home = () => {
 
              </div>
              <div className="second-part">
+             {
+               languages.map(language => <Service
+               language={language}
+               >
 
+               </Service>)
+             }
              </div>
 
         </div>

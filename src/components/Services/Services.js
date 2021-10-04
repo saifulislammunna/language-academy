@@ -3,7 +3,7 @@ import Service from '../Service/Service';
 import './Services.css'
 const Services = () => {
     const [languages, setLanguages] = useState([]);
- 
+     
  useEffect(()=>{
    fetch('./languages.JSON')
    .then(res => res.json())
