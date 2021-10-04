@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Carousel } from 'react-bootstrap';
 import Service from '../Service/Service';
- 
 const Home = () => {
     
   let [languages,setLanguage]  = useState([])
