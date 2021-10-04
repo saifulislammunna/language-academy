@@ -1,56 +1,58 @@
 import React from 'react';
-import {   Legend, Line, LineChart,   XAxis, YAxis } from 'recharts';
+import { Table } from 'react-bootstrap';
+import {    Line, LineChart,   XAxis, YAxis } from 'recharts';
 import './Chart.css'
 const  Chart = () => {
     const data = [
         {
-          name: "Page A",
+          name: "Bengali",
           uv: 4000,
           pv: 2400,
           amt: 2400
         },
         {
-          name: "Page B",
+          name: "Russian",
           uv: 3000,
           pv: 1398,
           amt: 2210
         },
         {
-          name: "Page C",
+          name: "English ",
           uv: 2000,
-          pv: 9800,
+          pv: 11400,
           amt: 2290
         },
+       
         {
-          name: "Page D",
-          uv: 2780,
-          pv: 3908,
-          amt: 2000
-        },
-        {
-          name: "Page E",
+          name: "Arabic",
           uv: 1890,
-          pv: 4800,
+          pv:  2774,
           amt: 2181
         },
         {
-          name: "Page F",
+          name: "Chinese",
+          uv: 2780,
+          pv: 11170,
+          amt: 2000
+        },
+        {
+          name: "Spanish",
           uv: 2390,
-          pv: 3800,
+          pv: 5400,
           amt: 2500
         },
         {
-          name: "Page G",
+          name: "Hindi",
           uv: 3490,
-          pv: 4300,
+          pv: 6150,
           amt: 2100
         }
       ];
     return (
        <div className="chart-container">
         <div className="chart">
-        <LineChart
-        width={500}
+        <LineChart   
+        width={600}
         height={300}
         data={data}
         margin={{
@@ -59,23 +61,87 @@ const  Chart = () => {
           left: 20,
           bottom: 5
         }}
-      >
+       >
        
         <XAxis dataKey="name" />
         <YAxis />
         
-        <Legend />
+         
         <Line
           type="monotone"
           dataKey="pv"
           stroke="#8884d8"
           activeDot={{ r: 8 }}
         />
-        <Line type="monotone" dataKey="uv" stroke="#82ca9d" />
-      </LineChart>
+         
+       </LineChart>
+       <div className="table">
+       <Table striped bordered hover size="sm">
+  <thead>
+    <tr>
+      <th>Rank</th>
+      <th>Language</th>
+      <th>Total Speakers</th>
+      <th>Language Origin</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>English</td>
+      <td>1,132 million</td>
+      <td>Indo-European</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td> Chinese</td>
+      <td>1,117 million</td>
+      <td>Sino-Tibetan</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>Hindi</td>
+      <td>615 million</td>
+      <td>Indo-European</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>Spanish</td>
+      <td>534 million</td>
+      <td>Indo-European</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>French</td>
+      <td>280 million</td>
+      <td>Indo-European</td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>Arabic</td>
+      <td>274 million</td>
+      <td>Afro-Asiatic</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>Bengali</td>
+      <td>265 million</td>
+      <td>Indo-European</td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td>Russian</td>
+      <td>258 million</td>
+      <td>Indo-European</td>
+    </tr>
+     
+  </tbody>
+</Table>
+       </div>
         </div>
        
-      <div className="chart-description">
+       
+       <div className="chart-description">
        <div>
        <h1>Most Spoken Languages Worldwide</h1>
         <p>Even though you’re reading this article in English, there’s a good chance it might not be your mother tongue. Of the billion-strong English speakers in the world, only 33% consider it their native language.The popularity of a language depends greatly on utility and geographic location. Additionally, how we measure the spread of world languages can vary greatly depending on whether you look at total speakers or native speakers.Today’s detailed visualization from WordTips illustrates the 100 most spoken languages in the world, the number of native speakers for each language, and the origin tree that each language has branched out from.</p>
@@ -88,9 +154,11 @@ const  Chart = () => {
          <h1>What About Second (L2) Languages?</h1>
          <p>Nearly 43% of the world’s population is bilingual, with the ability to switch between two languages with ease.
 
-From the data, second language (L2) speakers can be calculated by looking at the difference between native and total speakers, as a proportion of the total. For example, 66% of English speakers learned it as a second language.</p>
+            From the data, second language (L2) speakers can be calculated by looking at the difference between native and total speakers, as a proportion of the total. For example, 66% of English speakers learned it as a second language.</p>
+        </div>
+    
        </div>
-      </div>
+      
        </div>
       
     );

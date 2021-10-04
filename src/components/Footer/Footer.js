@@ -9,7 +9,7 @@ const Footer = () => {
       }
     return (
       <div >
-                <div style={{footerStyle}}/> 
+                <div   style={{footerStyle}}/> 
         <div className="footer ">
             <p>COPYRIGHT © 2021 LC</p>
         </div>
