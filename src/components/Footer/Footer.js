@@ -1,5 +1,6 @@
 import React from 'react';
 import './Footer.css'
+/* footer component */
 const Footer = () => {
     var footerStyle = {
         display: 'block',
@@ -16,5 +17,5 @@ const Footer = () => {
       </div>
     );
 };
-
+/* exporting footer to app.js */
 export default Footer;

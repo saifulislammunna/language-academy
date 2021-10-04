@@ -50,6 +50,7 @@ const  Chart = () => {
       ];
     return (
        <div className="chart-container">
+         {/* language  chart added*/}
         <div className="chart">
         <LineChart   
         width={600}
@@ -75,6 +76,7 @@ const  Chart = () => {
         />
          
        </LineChart>
+       {/* table added */}
        <div className="table">
        <Table striped bordered hover size="sm">
   <thead>
@@ -128,15 +130,15 @@ const  Chart = () => {
       <td>265 million</td>
       <td>Indo-European</td>
     </tr>
-    <tr>
-      <td>8</td>
-      <td>Russian</td>
-      <td>258 million</td>
-      <td>Indo-European</td>
-    </tr>
+     <tr>
+       <td>8</td>
+       <td>Russian</td>
+       <td>258 million</td>
+       <td>Indo-European</td>
+      </tr>
      
-  </tbody>
-</Table>
+        </tbody>
+      </Table>
        </div>
         </div>
        
@@ -165,5 +167,5 @@ const  Chart = () => {
      
     
 };
-
+/*exporting chart to app.js  */
 export default  Chart;

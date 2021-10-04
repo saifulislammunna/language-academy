@@ -1,5 +1,5 @@
 import React from 'react';
-
+/* notfound component */
 const NotFound = () => {
     return (
         <div>
@@ -8,5 +8,5 @@ const NotFound = () => {
         </div>
     );
 };
-
+/* exporting notfound to app.js */
 export default NotFound;

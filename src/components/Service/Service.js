@@ -1,12 +1,14 @@
 import React from 'react';
 import {Button,CardGroup,Card} from 'react-bootstrap';
 import './Service.css'
+/* service component */
 const Service = (props) => {
     const {img,name,price} = props.language
     return (
        
-        <div  >
-            <div   >
+        <div>
+            <div>
+              {/* card group added */}
             <CardGroup >
   <Card  className="language-course">
     <Card.Img variant="top" src={img} className="  p-5"  width="450" height="350" />
@@ -26,12 +28,8 @@ const Service = (props) => {
     </div>
             
         </div>
-        // <img src={img} className="rounded" alt="" width="400" height="300" />
-        // <h3>Course Name:{name}</h3>
-        // <h2> {price}</h2>
-        // <Button>Enroll Now</Button>
-         
+        
     );
 };
-
+/* exporting service component */
 export default Service;

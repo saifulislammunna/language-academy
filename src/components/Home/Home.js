@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { Carousel ,Button} from 'react-bootstrap';
 import Service from '../Service/Service';
 import './Home.css'
+/* home component */
 const Home = () => {
     
   let [languages,setLanguages]  = useState([])
@@ -14,6 +15,7 @@ const Home = () => {
     return (
         <div  >
              <div className="carousel-part">
+               {/* carousel added */}
              <Carousel fade>
              <Carousel.Item>
     <img
@@ -83,5 +85,5 @@ const Home = () => {
         </div>
     );
 };
-
+/* exporting home to app.js */
 export default Home;

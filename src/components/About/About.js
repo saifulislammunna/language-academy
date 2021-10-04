@@ -1,5 +1,6 @@
 import React from 'react';
 import { Button} from 'react-bootstrap';
+/* about component */
 const About = () => {
     return (
         <div>
@@ -64,5 +65,5 @@ Exception: We can verify certain proofs of language proficiency online. For thes
         </div>
     );
 };
-
+/* exporting about to app.js */
 export default About;
