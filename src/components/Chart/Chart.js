@@ -143,18 +143,18 @@ const  Chart = () => {
         </div>
        
        
-       <div className="chart-description">
-       <div>
+       <div className="chart-description ps-2">
+       <div className="text-start">
        <h1>Most Spoken Languages Worldwide</h1>
         <p>Even though you’re reading this article in English, there’s a good chance it might not be your mother tongue. Of the billion-strong English speakers in the world, only 33% consider it their native language.The popularity of a language depends greatly on utility and geographic location. Additionally, how we measure the spread of world languages can vary greatly depending on whether you look at total speakers or native speakers.Today’s detailed visualization from WordTips illustrates the 100 most spoken languages in the world, the number of native speakers for each language, and the origin tree that each language has branched out from.</p>
        </div>
-       <div>
+       <div className="text-start">
          <h1>Which Languages Have the Most Speakers?</h1>
          <p>It comes as no surprise that English reigns supreme, with over 1.1 billion total speakers—or roughly 15% of the global population.  Chinese, Hindi, Spanish, and French round out the top five.</p>
        </div>
-       <div>
-         <h1>What About Second (L2) Languages?</h1>
-         <p>Nearly 43% of the world’s population is bilingual, with the ability to switch between two languages with ease.
+       <div className="text-start">
+         <h1  >What About Second (L2) Languages?</h1>
+         <p  >Nearly 43% of the world’s population is bilingual, with the ability to switch between two languages with ease.
 
             From the data, second language (L2) speakers can be calculated by looking at the difference between native and total speakers, as a proportion of the total. For example, 66% of English speakers learned it as a second language.</p>
         </div>
