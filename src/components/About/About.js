@@ -5,11 +5,11 @@ const About = () => {
     return (
         <div>
             <div className="p-5">
-            <h1 className="text-start"> OUR MISSION</h1>
-               <p className="text-start"> Language Center’s mission is twofold: to provide high quality, affordable English classes to international students in a supportive, friendly atmosphere where students come first, whether their goal is academic, professional or personal self improvement, and expose them to Arabic,Bengali &  English culture. At the same time, we are committed to providing immigrant New Yorkers with ESL classes that accommodate their needs and prepare them to be part of the society where they live, work and educate their children. The curriculum at  Language Center is designed to support this mission by providing students with the necessary language tools to help them achieve their goals.  Language Center is committed to excellence and service at the highest degree.</p>
+            <h1 className="text-start fw-bold"> OUR MISSION</h1>
+               <p className="text-start "> Language Center’s mission is twofold: to provide high quality, affordable English classes to international students in a supportive, friendly atmosphere where students come first, whether their goal is academic, professional or personal self improvement, and expose them to Arabic,Bengali &  English culture. At the same time, we are committed to providing immigrant New Yorkers with ESL classes that accommodate their needs and prepare them to be part of the society where they live, work and educate their children. The curriculum at  Language Center is designed to support this mission by providing students with the necessary language tools to help them achieve their goals.  Language Center is committed to excellence and service at the highest degree.</p>
             </div>
 <div className="p-5">
-<h1 className="text-start">PLAN OVERVIEW</h1>
+<h1 className="text-start fw-bold">PLAN OVERVIEW</h1>
  <p className="text-start">comprehensive review once every three years. This review covers the following elements of its program: Mission, Financial Resources, Student Services, Human Resources, Physical Facility, Administrative Procedures and Operational Policies, Marketing and Recruitment and   Program Review. Any student, faculty, or staff member wishing to give input to this plan is encouraged to contact the Executive Director.</p>
 
 <div>
@@ -19,7 +19,7 @@ const About = () => {
 
 </div>
 <div className=" p-5">
-   <h1 className="text-start">WELCOMING INTERNATIONAL STUDENTS SINCE 1985</h1>
+   <h1 className="text-start fw-bold">WELCOMING INTERNATIONAL STUDENTS SINCE 1985</h1>
    <p className="text-start">
     Language Center strives for excellence in all aspects of our program. This will help make your time with us well spent. Not only will you make friends from all over the world, you will receive excellent instruction, participate in exciting activities and enjoy our wonderful city! Our courses are designed with you in mind.
    </p>
@@ -28,7 +28,7 @@ const About = () => {
  
 <div className="p-5">
     
-  <h1 className="text-start">CERTIFICATION</h1>
+  <h1 className="text-start fw-bold">CERTIFICATION</h1>
    <p className="text-start">
    Many universities require officially certified copies of your proofs of language proficiency  .
 This usually applies to:
@@ -55,7 +55,7 @@ Exception: We can verify certain proofs of language proficiency online. For thes
  
 </div >
 <div className="p-5">
-<h1 className="text-start">CODE OF ETHICS</h1>
+<h1 className="text-start fw-bold">CODE OF ETHICS</h1>
 
 <h3 className="text-start">Language Center must adhere to the   mission at all times.</h3>
 
