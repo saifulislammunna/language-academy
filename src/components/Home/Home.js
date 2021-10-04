@@ -37,8 +37,8 @@ const Home = () => {
                  alt="Second slide" width="500" height="400" 
                  />
                  <Carousel.Caption>
-                  <h3 className="text-success">learn arabic</h3>
-                   <p className="text-success">This Arabic course contains 100+ Arabic lessons that cover most Arabic grammar and Arabic morphology topics needed to help you learn Arabic quickly.</p>
+                  <h3 className="text-dark">learn arabic</h3>
+                   <p className="text-dark fw-bolder">This Arabic course contains 100+ Arabic lessons that cover most Arabic grammar and Arabic morphology topics needed to help you learn Arabic quickly.</p>
                    <Button  className="btn btn-primary" >Learn Arabic</Button>
                  </Carousel.Caption>
                  </Carousel.Item>
