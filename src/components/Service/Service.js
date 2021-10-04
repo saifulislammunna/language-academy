@@ -1,9 +1,9 @@
 import React from 'react';
-
+import './Service.css'
 const Service = (props) => {
     const {img,name,price} = props.language
     return (
-        <div>
+        <div className="language-course">
             <img src={img}  alt="" />
             <h1>Name:{name}</h1>
             <p>Price:{price}</p>

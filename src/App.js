@@ -8,7 +8,7 @@ import About from './components/About/About';
 import NotFound from './components/NotFound/NotFound';
 import { BrowserRouter,Switch,Route } from 'react-router-dom';
 import Footer from './components/Footer/Footer';
-import Chart from './components/Chart/Chart';
+import Chart from './components/Chart/Chart'
  
 
 
