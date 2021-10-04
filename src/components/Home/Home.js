@@ -25,7 +25,7 @@ const Home = () => {
     <Carousel.Caption>
       <h3>learn bengali</h3>
       <p>LEARNING BENGALI: FROM BANGLA BEGINNER TO ADVANCED LEARNER</p>
-      <Button  class="btn btn-primary" >Learn bengali</Button>
+      <Button>Learn bengali</Button>
     </Carousel.Caption>
   </Carousel.Item>
                 <Carousel.Item>
