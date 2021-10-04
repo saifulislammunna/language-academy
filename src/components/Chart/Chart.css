@@ -1,0 +1,11 @@
+ .chart-container{
+     display: grid;
+     grid-template-columns: 2fr 2fr;
+ }
+ .chart{
+     border-right: 1px solid lightgray;
+     margin-right: 5px;
+     margin-left: 50px;
+     padding-top: 100px;
+
+ }

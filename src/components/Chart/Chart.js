@@ -1,6 +1,6 @@
 import React from 'react';
 import {   Legend, Line, LineChart,   XAxis, YAxis } from 'recharts';
-
+import './Chart.css'
 const  Chart = () => {
     const data = [
         {
@@ -47,6 +47,8 @@ const  Chart = () => {
         }
       ];
     return (
+       <div className="chart-container">
+        <div className="chart">
         <LineChart
         width={500}
         height={300}
@@ -71,7 +73,22 @@ const  Chart = () => {
         />
         <Line type="monotone" dataKey="uv" stroke="#82ca9d" />
       </LineChart>
+        </div>
+       
+      <div className="chart-description">
+       <div>
+       <h1>Most Spoken Languages Worldwide</h1>
+        <p>Even though you’re reading this article in English, there’s a good chance it might not be your mother tongue. Of the billion-strong English speakers in the world, only 33% consider it their native language.The popularity of a language depends greatly on utility and geographic location. Additionally, how we measure the spread of world languages can vary greatly depending on whether you look at total speakers or native speakers.Today’s detailed visualization from WordTips illustrates the 100 most spoken languages in the world, the number of native speakers for each language, and the origin tree that each language has branched out from.</p>
+       </div>
+       <div>
+         <h1>Which Languages Have the Most Speakers?</h1>
+         <p>It comes as no surprise that English reigns supreme, with over 1.1 billion total speakers—or roughly 15% of the global population. Mandarin Chinese, Hindi, Spanish, and French round out the top five.</p>
+       </div>
+      </div>
+       </div>
+      
     );
+     
     
 };
 

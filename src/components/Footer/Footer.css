@@ -1,6 +1,13 @@
 .footer{
-    background-color: #03071e;
-    line-height: 90px;
-    text-decoration: none;
+    background-color: #080016;
+    border-top : 1px solid #E7E7E7;
+    text-align: center;
     color: white;
+    padding: 20px;
+    left: 0;
+    bottom: 0;
+    height: 60px;
+    width: 100%;
+    
 }
+ 
