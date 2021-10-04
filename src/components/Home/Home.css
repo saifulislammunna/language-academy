@@ -1,0 +1,14 @@
+.carousel-part{
+    background-color: #c2cbce;
+    padding :  100px;
+    padding-top: 50px;
+     
+}
+.service-part{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 10px;
+}
+.btn{
+   background-color: #23085a;;
+}

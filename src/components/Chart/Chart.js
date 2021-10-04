@@ -82,7 +82,13 @@ const  Chart = () => {
        </div>
        <div>
          <h1>Which Languages Have the Most Speakers?</h1>
-         <p>It comes as no surprise that English reigns supreme, with over 1.1 billion total speakers—or roughly 15% of the global population. Mandarin Chinese, Hindi, Spanish, and French round out the top five.</p>
+         <p>It comes as no surprise that English reigns supreme, with over 1.1 billion total speakers—or roughly 15% of the global population.  Chinese, Hindi, Spanish, and French round out the top five.</p>
+       </div>
+       <div>
+         <h1>What About Second (L2) Languages?</h1>
+         <p>Nearly 43% of the world’s population is bilingual, with the ability to switch between two languages with ease.
+
+From the data, second language (L2) speakers can be calculated by looking at the difference between native and total speakers, as a proportion of the total. For example, 66% of English speakers learned it as a second language.</p>
        </div>
       </div>
        </div>
